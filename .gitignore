@@ -147,3 +147,9 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# macOS
+.DS_Store
+
+# MediaPipe wasm runtime, copied from node_modules by scripts/copy-wasm.mjs
+public/wasm
